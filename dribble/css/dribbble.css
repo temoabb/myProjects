@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+
+:root {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(161, 139, 139);
+  font-size: 1.6rem;
+}
+.dribbble__one__third {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: rgb(39, 25, 25);
+}
+.dribbble__one__third__first__nav__names {
+  display: inline-block;
+  padding: 0rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+.dribbble__one__third__first__nav__names a {
+  transition: all 0.5s ease 0s;
+}
+.dribbble__one__third__first__nav__names a:hover {
+  color: white;
+}
+
+.dribbble__one__third__second__nav__names {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.8rem;
+}
+
+
+.dribbble__one__third__second__nav__names a {
+  transition: all 0.5s ease 0s;
+}
+.dribbble__one__third__second__nav__names a:hover {
+  color: white;
+}
+
+.search {
+  width: 15rem;
+  height: 3rem;
+  padding: 0 0.8rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+
+}
+.border__for__sign__up {
+  border: 1px solid grey;
+  border-radius: 8%;
+  background: #2e3192;
+}
+.dribbble__one__third__heading__text__and__picture {
+  background-color: #2e3192;
+  width: 100%;
+  height: 45rem;
+  position: relative;
+}
+.dribbble__one__third__first__heading {
+  font-size: 4.5rem;
+  color: white;
+}
+.dribbble__one__third__first__paragraph {
+  font-size: 2.5rem;
+  color: rgb(201, 85, 104);
+}
+.dribbble__one__third__first__picture {
+  width: 45rem;
+  float: right;
+  margin: 2rem 10rem;
+  border-radius: 8%;
+  opacity: 0.8;
+}
+.dribbble__one__third__heading__text__and__picture__section__in__section {
+  position: absolute;
+  margin: 4rem 15rem;
+  width: 55rem;
+}
+.dribbble__one__third__first__paragraph__below {
+  color: white;
+  font-size: 2rem;
+  padding: 1.2rem;
+  background: rgb(187, 85, 102);
+  border-radius: 4%;
+}
+.dribbble__one__third__heading__text__and__picture__second__section__in__section {
+  position: absolute;
+  margin: 10rem auto;
+  font-size: 2rem;
+  color: rgb(187, 85, 102);
+}
+
+.dribbble__two__third__first__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: rgb(252, 237, 237);
+  margin: 1rem auto;
+}
+.dribbble__two__third__first__section__first__nav__names {
+  display: inline-block;
+  padding: 1.5rem 1.5rem;
+  font-size: 2rem;
+  border-radius: 10%;
+  font-weight: 500;
+}
+.dribbble__two__third__first__section__first__nav__names a {
+  transition: all 600ms ease 0s;
+}
+.dribbble__two__third__first__section__first__nav__names a:hover {
+  color: black;
+}
+.two__third__for__flex {
+  margin: 0 auto;
+  width: 100%;
+  background: rgb(214, 214, 224);
+  min-height: 220vh;
+}
+.box {
+  width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.two__third__flex__container__item {
+  border-radius: 2%;
+  width: 20rem;
+  height: 20rem;
+  margin: 0.8rem 1.5rem 3rem 1.5rem;
+  justify-content: center;
+  background: white;
+  position: relative;
+  z-index: 1;
+}
+.two__third__flex__container__item:hover .overlay {
+  opacity: 1;
+}
+
+.two__third__box__images {
+  width: 100%;
+  height: 100%;
+}
+.overlay {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  transition: 700ms;
+  background-color: rgba(224, 216, 216, 0.4);
+}
+
+.overlay__item {
+  width: 100%;
+  height: 4rem;
+  cursor: pointer;
+  background: rgb(241, 227, 227);
+  border-radius: 5%;
+  margin: 16rem auto;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.overlay__item__first__option {
+  width: 40%;
+  font-size: 2rem;
+  border-radius: 7%;
+  margin-top: 0.7rem;
+  float: left;
+  margin-left: 0.5rem;
+  color: black;
+  background: white;
+}
+.overlay__item__second__option {
+  width: 40%;
+  margin-top: 0.7rem;
+  margin-right: 0.5rem;
+  font-size: 2rem;
+  border-radius: 5%;
+  float: right;
+  color: black;
+  background: white;
+}
+
+.two__third__nav__bottom {
+  width: 100%;
+  height: 15rem;
+  margin: 0rem auto;
+  background: rgb(219, 236, 227);
+}
+.two__third__nav__bottom__navnames__signup {
+  background-color: rgb(202, 121, 135);
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem auto;
+  width: 35%;
+  padding: 1rem;
+  border-radius: 4%;
+  color: white;
+  cursor: pointer;
+}
+.two__third__nav__bottom__navnames__signin {
+  background-color: rgb(219, 236, 227);
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem auto;
+}
+.footer__container {
+  width: 100%;
+  height: 30rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  margin: 0 auto;
+  background-color: white;
+}
+.footer__flex__box__first__column {
+  width: 13%;
+}
+.footer__flex__box__second__column {
+  width: 15%;
+  font-size: 1.5rem;
+}
+.footer__flex__box__third__column {
+  width: 15%;
+  font-size: 1.5rem;
+}
+.footer__flex__box__fourth__column {
+  width: 15%;
+  font-size: 1.5rem;
+}
+.footer__flex__box__fiveth__column {
+  width: 15%;
+  font-size: 1.5rem;
+}
+.footer__flex__box__sixth__column {
+  width: 15%;
+  font-size: 1.5rem;
+}
+.div__fb__ins__tw__logos {
+  margin: 1.5rem auto;
+}
+.div__paragraph {
+  font-size: 1.3rem;
+  margin: 1.5rem auto;
+}
+
+.fb__ins__tw__logos {
+  width: 2.4rem;
+  height: 2.4rem;
+  cursor: pointer;
+}
+.fourth__logo {
+  margin: 3rem auto;
+}
+.image__2 {
+  float: left;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.image__1 {
+  float: left;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.image__3 {
+  width: 7rem;
+  float: left;
+}
+.image__4 {
+  float: left;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 60%;
+}
+.copyright__bottom {
+  display: flex;
+
+  margin: 1.5rem auto;
+  width: 100%;
+  font-size: 1.5rem;
+}
+.bottom__second__paragraph {
+  padding: 0rem 10rem;
+}
