@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product hunt - The best new products in tech.</title>
+  <link rel="shortcut icon" href="logo.png">
+  <link rel="stylesheet" href="tech.css" />
+</head>
+
+<body>
+  <header class="flex justify__center">    <!--გით გითგიტთგიტითითი-->
+    <section class=" header__section flex justify__between align__center">
+      <div class="header__section__first__div flex justify__between align__center">
+        <div class="flex">
+          <!-- TODO: make this div flexდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდდ -->
+          <div class="header__logo__and__input flex align__center justify__start">
+            <!-- does not need width -->
+            <img src="search.png" alt="search" class="search__icon" />
+            <div><img src="logo.png" alt="logo" class="logo"></div>
+            <div>
+              <input type="text" class="header__input" placeholder="Discover your next favorite thing...">
+            </div>
+          </div>
+          <div class="header__section__third__div flex align__center">
+            <ul class="flex header__section__third__div__ul">
+              <li><a href="#">Deals</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Makers</a></li>
+              <li><a href="#">Radio</a></li>
+              <li><a href="#">Ship</a></li>
+              <li class="dropdown">
+                <button class="dropbtn"><span>....</span></button>
+                <div class="dropdown__content">
+                  <ul class="dropdown__content__ul">
+                    <li><a href="#">Ask</li></a>
+                    <li><a href="#">UPCOMING</li></a>
+                    <li><a href="#">COLLECTIONS</li></a>
+                    <li><a href="#">TOPICS</li></a>
+                    <li><a href="#">TIME TRAVEL</li></a>
+                    <li><a href="#">ADVERTISE</li></a>
+                    <li><a href="#">POST A JOB</li></a>
+                    <li><a href="#">PROMOTED PRODUCTIONS</li></a>
+                    <li><a href="#">EVENTS</li></a>
+                    <li><a href="#">APPS</li></a>
+                    <li><a href="#">ABOUT</li></a>
+                    <li><a href="#">BRANDING</li></a>
+                  </ul>
+                </div>
+          </div>
+        </div>
+        <div class="header__section__right__buttons flex align__center justify__between">
+          <button class="login">LOG IN</button>
+          <button class="signup">SIGN UP</button>
+        </div>
+    </section>
+  </header>
+  <section class="main__content flex justify__center">
+    <div class="before__filter flex justify__between">
+
+      <div class="decoration">
+        <div class="decoration__heading flex column align__start">
+          <div>
+            <h1>Tech</h1>
+            <p>Hardware or software. Invention or innovation.
+              If someone’s pushing technology forward, you’ll find it here.</p>
+          </div>
+        </div>
+        <div class="decoration__bottom flex align__center justify__between">
+          <div class="decoration__bottom__follow__share__btn flex justify__between align__center">
+            <button class="decoration__bottom__follow">FOLLOW</button>
+            <span> +225,203 followers</span>
+          </div>
+          <div>
+            <button class="decoration__bottom__share flex align__center justify__center">
+              <img src="share.png" alt="fdfd"><span> SHARE</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="newsletter__box flex column align__start">
+        <span>Newsletter</span>
+        <div class="newsletter__box__content flex column justify__between">
+          <div><span>Get the best new products in your inbox, every day</span> <img src="finger__down.png"
+              alt="finger__down" class="finger__down">
+          </div>
+
+          <input type="text" placeholder="Your email">
+          <button>SUBSCRIBE</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ******************************************filter__content*************************************************************** -->
+
+
+
+
+  <section class="filter flex justify__center">
+    <section class="filter__content__and__featured flex justify__between">
+
+      <section class="filter__content__container">
+        <div class="filter__area__only flex justify__between">
+          <div>
+            <input type="text" placeholder="Search posts" id="filter__area__only__input">
+          </div>
+          <div>
+            <select name="FILTER__SELECT" id="filter__area__only__select">
+              <option value="by date">BY DATE</option>
+              <option value=""> BY MOST LIKED</option>
+              <option value="">BY MOST SEARCHED</option>
+              <option value="">BY MOST CLICKED</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="filter__content__boxes">
+          <div class="filter__content__box pointer flex align__center justify__between">
+            <div class="filter__content__box__first__div flex align__center">
+              <div>
+                <img src="boxPics/box-p4.webp" alt="boxP" class="filter__content__box__img">
+              </div>
+              <div class="filter__content__box__first__div__second__div flex 
+            column justify__between align__start">
+                <div class="px__16">FreeForStudents v2</div>
+                <div class="px__13">Connecting students to the best freebies and discounts</div>
+                <div class="flex align__center px__11 justify__between">
+                  <div class="comment__number flex align__center justify__around">
+                    <img src="comment.png" alt="comment" id="comment__logo">
+                    <span>1</span>
+                  </div>
+                  <div>Web</div>
+                  <div>App</div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__content__box__third__div 
+          flex align__center ">
+              <button class="flex column justify__center align__center">
+                <img src="triangle.png" alt="triangle" class="triangle__icon">
+                <span>1</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter__content__box pointer flex align__center justify__between">
+          <div class="filter__content__box__first__div flex align__center">
+            <div>
+              <img src="boxPics/box-p2.webp" alt="boxP" class="filter__content__box__img">
+            </div>
+            <div class="filter__content__box__first__div__second__div flex 
+            column justify__between align__start">
+              <div class="px__16">FreeForStudents v2</div>
+              <div class="px__13">Connecting students to the best freebies and discounts</div>
+              <div class="flex align__center px__11 justify__between">
+                <div class="comment__number flex align__center justify__around">
+                  <img src="comment.png" alt="comment" id="comment__logo">
+                  <span>1</span>
+                </div>
+                <div>Web</div>
+                <div>App</div>
+              </div>
+            </div>
+          </div>
+          <div class="filter__content__box__third__div 
+          flex align__center ">
+            <button class="flex column justify__center align__center">
+              <img src="triangle.png" alt="triangle" class="triangle__icon">
+              <span>1</span>
+            </button>
+          </div>
+        </div>
+        </div>
+
+        <div class="filter__content__box pointer flex align__center justify__between">
+          <div class="filter__content__box__first__div flex align__center">
+            <div>
+              <img src="boxPics/box-p3.webp" alt="boxP" class="filter__content__box__img">
+            </div>
+            <div class="filter__content__box__first__div__second__div flex 
+            column justify__between align__start">
+              <div class="px__16">FreeForStudents v2</div>
+              <div class="px__13">Connecting students to the best freebies and discounts</div>
+              <div class="flex align__center px__11 justify__between">
+                <div class="comment__number flex align__center justify__around ">
+                  <img src="comment.png" alt="comment" id="comment__logo">
+                  <span>1</span>
+                </div>
+                <div>Web</div>
+                <div>App</div>
+              </div>
+            </div>
+          </div>
+          <div class="filter__content__box__third__div 
+          flex align__center ">
+            <button class="flex column justify__center align__center">
+              <img src="triangle.png" alt="triangle" class="triangle__icon">
+              <span>1</span>
+            </button>
+          </div>
+        </div>
+        </div>
+
+        <div class="filter__content__box pointer flex align__center justify__between">
+          <div class="filter__content__box__first__div flex align__center">
+            <div>
+              <img src="boxPics/box-p5.webp" alt="boxP" class="filter__content__box__img">
+            </div>
+            <div class="filter__content__box__first__div__second__div flex 
+            column justify__between align__start">
+              <div class="px__16">FreeForStudents v2</div>
+              <div class="px__13">Connecting students to the best freebies and discounts</div>
+              <div class="flex align__center px__11 justify__between">
+                <div class="comment__number flex align__center justify__around ">
+                  <img src="comment.png" alt="comment" id="comment__logo">
+                  <span>1</span>
+                </div>
+                <div>Web</div>
+                <div>App</div>
+              </div>
+            </div>
+          </div>
+          <div class="filter__content__box__third__div 
+          flex align__center ">
+            <button class="flex column justify__center align__center">
+              <img src="triangle.png" alt="triangle" class="triangle__icon">
+              <span>1</span>
+            </button>
+          </div>
+        </div>
+        </div>
+
+        <div class="filter__content__box pointer flex align__center justify__between">
+          <div class="filter__content__box__first__div flex align__center">
+            <div>
+              <img src="boxPics/box-p6.webp" alt="boxP" class="filter__content__box__img">
+            </div>
+            <div class="filter__content__box__first__div__second__div flex 
+            column justify__between align__start">
+              <div class="px__16">FreeForStudents v2</div>
+              <div class="px__13">Connecting students to the best freebies and discounts</div>
+              <div class="flex align__center px__11 justify__between">
+                <div class="comment__number flex align__center justify__around">
+                  <img src="comment.png" alt="comment" id="comment__logo">
+                  <span>1</span>
+                </div>
+                <div>Web</div>
+                <div>App</div>
+              </div>
+            </div>
+          </div>
+          <div class="filter__content__box__third__div 
+          flex align__center ">
+            <button class="flex column justify__center align__center">
+              <img src="triangle.png" alt="triangle" class="triangle__icon">
+              <span>1</span>
+            </button>
+          </div>
+        </div>
+        </div>
+
+        <div class="filter__content__box pointer flex align__center justify__between">
+          <div class="filter__content__box__first__div flex align__center">
+            <div>
+              <img src="boxPics/box-p7.webp" alt="boxP" class="filter__content__box__img">
+            </div>
+            <div class="filter__content__box__first__div__second__div flex 
+            column justify__between align__start">
+              <div class="px__16">FreeForStudents v2</div>
+              <div class="px__13">Connecting students to the best freebies and discounts</div>
+              <div class="flex align__center px__11 justify__between">
+                <div class="comment__number flex align__center justify__around">
+                  <img src="comment.png" alt="comment" id="comment__logo">
+                  <span>1</span>
+                </div>
+                <div>Web</div>
+                <div>App</div>
+              </div>
+            </div>
+          </div>
+          <div class="filter__content__box__third__div 
+          flex align__center ">
+            <button class="flex column justify__center align__center">
+              <img src="triangle.png" alt="triangle" class="triangle__icon">
+              <span>1</span>
+            </button>
+          </div>
+        </div>
+        </div>
+
+        <div class="filter__content__box pointer flex align__center justify__between">
+          <div class="filter__content__box__first__div flex align__center">
+            <div>
+              <img src="boxPics/box-p8.webp" alt="boxP" class="filter__content__box__img">
+            </div>
+            <div class="filter__content__box__first__div__second__div flex 
+            column justify__between align__start">
+              <div class="px__16">FreeForStudents v2</div>
+              <div class="px__13">Connecting students to the best freebies and discounts</div>
+              <div class="flex align__center px__11 justify__between">
+                <div class="comment__number flex align__center justify__around">
+                  <img src="comment.png" alt="comment" id="comment__logo">
+                  <span>1</span>
+                </div>
+                <div>Web</div>
+                <div>App</div>
+              </div>
+            </div>
+          </div>
+          <div class="filter__content__box__third__div 
+          flex align__center ">
+            <button class="flex column justify__center align__center">
+              <img src="triangle.png" alt="triangle" class="triangle__icon">
+              <span>1</span>
+            </button>
+          </div>
+        </div>
+        </div>
+
+        <div class="filter__content__box pointer flex align__center justify__between">
+          <div class="filter__content__box__first__div flex align__center">
+            <div>
+              <img src="boxPics/box-p9.webp" alt="boxP" class="filter__content__box__img">
+            </div>
+            <div class="filter__content__box__first__div__second__div flex 
+            column justify__between align__start">
+              <div class="px__16">FreeForStudents v2</div>
+              <div class="px__13">Connecting students to the best freebies and discounts</div>
+              <div class="flex align__center px__11 justify__between">
+                <div class="comment__number flex align__center justify__around">
+                  <img src="comment.png" alt="comment" id="comment__logo">
+                  <span>1</span>
+                </div>
+                <div>Web</div>
+                <div>App</div>
+              </div>
+            </div>
+          </div>
+          <div class="filter__content__box__third__div 
+          flex align__center ">
+            <button class="flex column justify__center align__center">
+              <img src="triangle.png" alt="triangle" class="triangle__icon">
+              <span>1</span>
+            </button>
+          </div>
+        </div>
+        </div>
+
+        <div class="filter__content__box pointer flex align__center justify__between">
+          <div class="filter__content__box__first__div flex align__center">
+            <div>
+              <img src="boxPics/box-p10.webp" alt="boxP" class="filter__content__box__img">
+            </div>
+            <div class="filter__content__box__first__div__second__div flex 
+            column justify__between align__start">
+              <div class="px__16">FreeForStudents v2</div>
+              <div class="px__13">Connecting students to the best freebies and discounts</div>
+              <div class="flex align__center px__11 justify__between">
+                <div class="comment__number flex align__center justify__around">
+                  <img src="comment.png" alt="comment" id="comment__logo">
+                  <span>1</span>
+                </div>
+                <div>Web</div>
+                <div>App</div>
+              </div>
+            </div>
+          </div>
+          <div class="filter__content__box__third__div 
+          flex align__center ">
+            <button class="flex column justify__center align__center">
+              <img src="triangle.png" alt="triangle" class="triangle__icon">
+              <span>1</span>
+            </button>
+          </div>
+        </div>
+        </div>
+
+        <div class="filter__content__box pointer flex align__center justify__between">
+          <div class="filter__content__box__first__div flex align__center">
+            <div>
+              <img src="boxPics/box-p11.webp" alt="boxP" class="filter__content__box__img">
+            </div>
+            <div class="filter__content__box__first__div__second__div flex 
+            column justify__between align__start">
+              <div class="px__16">FreeForStudents v2</div>
+              <div class="px__13">Connecting students to the best freebies and discounts</div>
+              <div class="flex align__center px__11 justify__between">
+                <div class="comment__number flex align__center justify__around">
+                  <img src="comment.png" alt="comment" id="comment__logo">
+                  <span>1</span>
+                </div>
+                <div>Web</div>
+                <div>App</div>
+              </div>
+            </div>
+          </div>
+          <div class="filter__content__box__third__div 
+          flex align__center ">
+            <button class="flex column justify__center align__center">
+              <img src="triangle.png" alt="triangle" class="triangle__icon">
+              <span>1</span>
+            </button>
+          </div>
+        </div>
+        </div>
+
+        <div class="filter__content__box pointer flex align__center justify__between">
+          <div class="filter__content__box__first__div flex align__center">
+            <div>
+              <img src="boxPics/box-p12.webp" alt="boxP" class="filter__content__box__img">
+            </div>
+            <div class="filter__content__box__first__div__second__div flex 
+            column justify__between align__start">
+              <div class="px__16">FreeForStudents v2</div>
+              <div class="px__13">Connecting students to the best freebies and discounts</div>
+              <div class="flex align__center px__11 justify__between">
+                <div class="comment__number flex align__center justify__around">
+                  <img src="comment.png" alt="comment" id="comment__logo">
+                  <span>1</span>
+                </div>
+                <div>Web</div>
+                <div>App</div>
+              </div>
+            </div>
+          </div>
+          <div class="filter__content__box__third__div 
+          flex align__center ">
+            <button class="flex column justify__center align__center">
+              <img src="triangle.png" alt="triangle" class="triangle__icon">
+              <span>1</span>
+            </button>
+          </div>
+        </div>
+        </div>
+
+        <div class="filter__content__box pointer flex align__center justify__between">
+          <div class="filter__content__box__first__div flex align__center">
+            <div>
+              <img src="boxPics/box-p13.webp" alt="boxP" class="filter__content__box__img">
+            </div>
+            <div class="filter__content__box__first__div__second__div flex 
+            column justify__between align__start">
+              <div class="px__16">FreeForStudents v2</div>
+              <div class="px__13">Connecting students to the best freebies and discounts</div>
+              <div class="flex align__center px__11 justify__between">
+                <div class="comment__number flex align__center justify__around">
+                  <img src="comment.png" alt="comment" id="comment__logo">
+                  <span>1</span>
+                </div>
+                <div>Web</div>
+                <div>App</div>
+              </div>
+            </div>
+          </div>
+          <div class="filter__content__box__third__div 
+          flex align__center ">
+            <button class="flex column justify__center align__center">
+              <img src="triangle.png" alt="triangle" class="triangle__icon">
+              <span>1</span>
+            </button>
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+
+
+      <section class="featured__collections__container">
+        <h2>Featured Collections</h2>
+        <div class="featured__collections__box" id="featured__collections__first__box">
+          <div class="featured__collections__box__content 
+          flex column justify__start">
+            <div class="featured__box__heading__div flex justify__center"><span>Women's Equally Day</span></div>
+            <div>
+              <p>A collection of products
+                and startups that slive for equality</p>
+            </div>
+          </div>
+          <button class="featured__collections__box__button pointer">FOLLOW</button>
+        </div>
+        <div class="featured__collections__box">
+          <div class="featured__collections__box__content right-1
+          flex column justify__start">
+            <div class="featured__box__heading__div flex justify__center"><span>Women's Equally Day</span></div>
+            <div>
+              <p>A collection of products
+                and startups that slive for equality</p>
+            </div>
+          </div>
+          <button class="featured__collections__box__button pointer">FOLLOW</button>
+        </div>
+
+        <div class="featured__collections__box">
+          <div class="featured__collections__box__content right-4
+            flex column justify__start">
+            <div class="featured__box__heading__div flex justify__center"><span>Women's Equally Day</span></div>
+            <div>
+              <p>A collection of products
+                and startups that slive for equality</p>
+            </div>
+          </div>
+          <button class="featured__collections__box__button pointer">FOLLOW</button>
+        </div>
+
+        <div class="featured__collections__box">
+          <div class="featured__collections__box__content right-5
+              flex column justify__start">
+            <div class="featured__box__heading__div flex justify__center"><span>Women's Equally Day</span></div>
+            <div>
+              <p>A collection of products
+                and startups that slive for equality</p>
+            </div>
+          </div>
+          <button class="featured__collections__box__button pointer">FOLLOW</button>
+        </div>
+
+
+        <div class="featured__collections__box">
+          <div class="featured__collections__box__content right-3
+            flex column justify__start">
+            <div class="featured__box__heading__div flex justify__center"><span>Women's Equally Day</span></div>
+            <div>
+              <p>A collection of products
+                and startups that slive for equality</p>
+            </div>
+          </div>
+          <button class="featured__collections__box__button pointer">FOLLOW</button>
+        </div>
+      </section>
+    </section>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <nav role="navigation">
+    <div id="menuToggle">
+      <input type="checkbox" /> -->
+  <!--A fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it. -->
+  <!-- <span></span> -->
+  <!-- Some spans to act as a hamburger.They are acting like a real hamburger,not that McDonalds stuff. -->
+  <!-- <span></span>
+      <span></span>
+      <ul id="menu"><a href="#">
+          <li>Home</li>
+        </a>
+        <a href="#">
+          <li>About</li>
+        </a>
+        <a href="#">
+          <li>Info</li>
+        </a>
+        <a href="#">
+          <li>Contact</li>
+        </a>
+        <a href="https://erikterwan.com/" target="_blank">
+          <li>Show me more</li>
+        </a>
+      </ul>
+    </div>
+  </nav> -->
+  <!-- Too bad the menu has to be inside of the button but hey, it's pure CSS magic. -->
+  <script src="tech.js"></script>
+</body>
+
+</html>
